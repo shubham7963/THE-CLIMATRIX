@@ -1,0 +1,67 @@
+{
+  "Tavg_C": {
+    "best_by_rmse": "LinearRegression",
+    "best_rmse": 1.338,
+    "best_r2": 0.851,
+    "production_model": "RandomForest",
+    "production_rmse": 1.359,
+    "production_r2": 0.847,
+    "production_matches_best": false,
+    "rmse_gap_production_minus_best": 0.021,
+    "all_candidates_rmse": {
+      "LinearRegression": 1.338,
+      "GradientBoosting": 1.35,
+      "RandomForest": 1.359,
+      "Historical Baseline": 1.395
+    }
+  },
+  "Rainfall_mm": {
+    "best_by_rmse": "Historical Baseline",
+    "best_rmse": 4.97,
+    "best_r2": 0.273,
+    "production_model": "TwoStageRainfall (RF-based)",
+    "production_rmse": 5.011,
+    "production_r2": 0.26,
+    "production_matches_best": false,
+    "rmse_gap_production_minus_best": 0.0406,
+    "all_candidates_rmse": {
+      "Historical Baseline": 4.97,
+      "LinearRegression": 4.972,
+      "TwoStageRainfall (RF-based)": 5.011,
+      "GradientBoosting": 5.04,
+      "RandomForest": 5.057
+    }
+  },
+  "Humidity_pct": {
+    "best_by_rmse": "Historical Baseline",
+    "best_rmse": 6.062,
+    "best_r2": 0.831,
+    "production_model": "RandomForest",
+    "production_rmse": 6.126,
+    "production_r2": 0.827,
+    "production_matches_best": false,
+    "rmse_gap_production_minus_best": 0.0642,
+    "all_candidates_rmse": {
+      "Historical Baseline": 6.062,
+      "LinearRegression": 6.065,
+      "GradientBoosting": 6.08,
+      "RandomForest": 6.126
+    }
+  },
+  "WindSpeed_kmh": {
+    "best_by_rmse": "Historical Baseline",
+    "best_rmse": 1.835,
+    "best_r2": 0.761,
+    "production_model": "RandomForest",
+    "production_rmse": 1.851,
+    "production_r2": 0.756,
+    "production_matches_best": false,
+    "rmse_gap_production_minus_best": 0.0165,
+    "all_candidates_rmse": {
+      "Historical Baseline": 1.835,
+      "LinearRegression": 1.836,
+      "GradientBoosting": 1.841,
+      "RandomForest": 1.851
+    }
+  }
+}

@@ -1,0 +1,137 @@
+City,Target,Model,MAE,RMSE,R2
+Mumbai,Tavg_C,Historical Baseline,1.102,1.375,0.547
+Mumbai,Tavg_C,LinearRegression,1.067,1.335,0.573
+Mumbai,Tavg_C,RandomForest,1.086,1.354,0.56
+Mumbai,Tavg_C,GradientBoosting,1.075,1.342,0.568
+Mumbai,Rainfall_mm,Historical Baseline,6.326,12.676,0.31
+Mumbai,Rainfall_mm,LinearRegression,6.333,12.68,0.31
+Mumbai,Rainfall_mm,RandomForest,6.329,12.85,0.291
+Mumbai,Rainfall_mm,GradientBoosting,6.211,12.788,0.298
+Mumbai,Rainfall_mm,TwoStageRainfall (RF-based),6.233,12.748,0.302
+Mumbai,Humidity_pct,Historical Baseline,4.868,6.063,0.679
+Mumbai,Humidity_pct,LinearRegression,4.873,6.071,0.678
+Mumbai,Humidity_pct,RandomForest,4.908,6.118,0.673
+Mumbai,Humidity_pct,GradientBoosting,4.874,6.082,0.677
+Mumbai,WindSpeed_kmh,Historical Baseline,1.488,1.875,0.884
+Mumbai,WindSpeed_kmh,LinearRegression,1.488,1.875,0.884
+Mumbai,WindSpeed_kmh,RandomForest,1.506,1.899,0.881
+Mumbai,WindSpeed_kmh,GradientBoosting,1.491,1.879,0.883
+Bangalore,Tavg_C,Historical Baseline,1.086,1.363,0.696
+Bangalore,Tavg_C,LinearRegression,1.054,1.323,0.713
+Bangalore,Tavg_C,RandomForest,1.064,1.332,0.709
+Bangalore,Tavg_C,GradientBoosting,1.055,1.324,0.713
+Bangalore,Rainfall_mm,Historical Baseline,2.454,3.771,0.205
+Bangalore,Rainfall_mm,LinearRegression,2.489,3.772,0.205
+Bangalore,Rainfall_mm,RandomForest,2.515,3.811,0.188
+Bangalore,Rainfall_mm,GradientBoosting,2.483,3.779,0.202
+Bangalore,Rainfall_mm,TwoStageRainfall (RF-based),2.477,3.78,0.202
+Bangalore,Humidity_pct,Historical Baseline,4.823,6.088,0.798
+Bangalore,Humidity_pct,LinearRegression,4.82,6.087,0.798
+Bangalore,Humidity_pct,RandomForest,4.866,6.129,0.795
+Bangalore,Humidity_pct,GradientBoosting,4.83,6.09,0.798
+Bangalore,WindSpeed_kmh,Historical Baseline,1.46,1.823,0.779
+Bangalore,WindSpeed_kmh,LinearRegression,1.459,1.822,0.78
+Bangalore,WindSpeed_kmh,RandomForest,1.469,1.835,0.777
+Bangalore,WindSpeed_kmh,GradientBoosting,1.471,1.839,0.775
+Jaipur,Tavg_C,Historical Baseline,1.105,1.384,0.955
+Jaipur,Tavg_C,LinearRegression,1.059,1.32,0.959
+Jaipur,Tavg_C,RandomForest,1.08,1.351,0.957
+Jaipur,Tavg_C,GradientBoosting,1.08,1.35,0.957
+Jaipur,Rainfall_mm,Historical Baseline,1.477,3.087,0.274
+Jaipur,Rainfall_mm,LinearRegression,1.509,3.088,0.274
+Jaipur,Rainfall_mm,RandomForest,1.586,3.138,0.25
+Jaipur,Rainfall_mm,GradientBoosting,1.56,3.134,0.252
+Jaipur,Rainfall_mm,TwoStageRainfall (RF-based),1.538,3.111,0.263
+Jaipur,Humidity_pct,Historical Baseline,4.888,6.1,0.848
+Jaipur,Humidity_pct,LinearRegression,4.89,6.102,0.848
+Jaipur,Humidity_pct,RandomForest,4.934,6.149,0.845
+Jaipur,Humidity_pct,GradientBoosting,4.892,6.099,0.848
+Jaipur,WindSpeed_kmh,Historical Baseline,1.509,1.871,0.731
+Jaipur,WindSpeed_kmh,LinearRegression,1.509,1.871,0.731
+Jaipur,WindSpeed_kmh,RandomForest,1.519,1.886,0.727
+Jaipur,WindSpeed_kmh,GradientBoosting,1.511,1.875,0.73
+Delhi,Tavg_C,Historical Baseline,1.145,1.434,0.959
+Delhi,Tavg_C,LinearRegression,1.08,1.349,0.964
+Delhi,Tavg_C,RandomForest,1.099,1.374,0.962
+Delhi,Tavg_C,GradientBoosting,1.093,1.368,0.963
+Delhi,Rainfall_mm,Historical Baseline,2.141,3.935,0.267
+Delhi,Rainfall_mm,LinearRegression,2.229,3.942,0.264
+Delhi,Rainfall_mm,RandomForest,2.279,4.067,0.217
+Delhi,Rainfall_mm,GradientBoosting,2.259,4.024,0.233
+Delhi,Rainfall_mm,TwoStageRainfall (RF-based),2.24,4.008,0.24
+Delhi,Humidity_pct,Historical Baseline,4.755,6.007,0.824
+Delhi,Humidity_pct,LinearRegression,4.756,6.008,0.824
+Delhi,Humidity_pct,RandomForest,4.793,6.084,0.82
+Delhi,Humidity_pct,GradientBoosting,4.766,6.025,0.823
+Delhi,WindSpeed_kmh,Historical Baseline,1.44,1.81,0.74
+Delhi,WindSpeed_kmh,LinearRegression,1.44,1.811,0.74
+Delhi,WindSpeed_kmh,RandomForest,1.463,1.832,0.733
+Delhi,WindSpeed_kmh,GradientBoosting,1.444,1.817,0.738
+Hyderabad,Tavg_C,Historical Baseline,1.096,1.363,0.843
+Hyderabad,Tavg_C,LinearRegression,1.059,1.314,0.854
+Hyderabad,Tavg_C,RandomForest,1.07,1.336,0.849
+Hyderabad,Tavg_C,GradientBoosting,1.066,1.326,0.851
+Hyderabad,Rainfall_mm,Historical Baseline,1.975,3.26,0.276
+Hyderabad,Rainfall_mm,LinearRegression,2.026,3.262,0.275
+Hyderabad,Rainfall_mm,RandomForest,1.957,3.299,0.258
+Hyderabad,Rainfall_mm,GradientBoosting,1.919,3.277,0.268
+Hyderabad,Rainfall_mm,TwoStageRainfall (RF-based),1.954,3.267,0.272
+Hyderabad,Humidity_pct,Historical Baseline,4.791,6.059,0.825
+Hyderabad,Humidity_pct,LinearRegression,4.798,6.066,0.824
+Hyderabad,Humidity_pct,RandomForest,4.809,6.101,0.822
+Hyderabad,Humidity_pct,GradientBoosting,4.792,6.061,0.825
+Hyderabad,WindSpeed_kmh,Historical Baseline,1.455,1.817,0.807
+Hyderabad,WindSpeed_kmh,LinearRegression,1.456,1.818,0.807
+Hyderabad,WindSpeed_kmh,RandomForest,1.465,1.826,0.805
+Hyderabad,WindSpeed_kmh,GradientBoosting,1.456,1.817,0.807
+Kanpur,Tavg_C,Historical Baseline,1.132,1.421,0.952
+Kanpur,Tavg_C,LinearRegression,1.07,1.348,0.957
+Kanpur,Tavg_C,RandomForest,1.096,1.381,0.954
+Kanpur,Tavg_C,GradientBoosting,1.081,1.361,0.956
+Kanpur,Rainfall_mm,Historical Baseline,2.404,4.698,0.33
+Kanpur,Rainfall_mm,LinearRegression,2.384,4.698,0.33
+Kanpur,Rainfall_mm,RandomForest,2.502,4.776,0.307
+Kanpur,Rainfall_mm,GradientBoosting,2.393,4.841,0.288
+Kanpur,Rainfall_mm,TwoStageRainfall (RF-based),2.457,4.744,0.316
+Kanpur,Humidity_pct,Historical Baseline,4.804,6.032,0.882
+Kanpur,Humidity_pct,LinearRegression,4.815,6.041,0.881
+Kanpur,Humidity_pct,RandomForest,4.897,6.144,0.877
+Kanpur,Humidity_pct,GradientBoosting,4.832,6.059,0.881
+Kanpur,WindSpeed_kmh,Historical Baseline,1.439,1.787,0.699
+Kanpur,WindSpeed_kmh,LinearRegression,1.44,1.788,0.698
+Kanpur,WindSpeed_kmh,RandomForest,1.453,1.8,0.694
+Kanpur,WindSpeed_kmh,GradientBoosting,1.444,1.791,0.697
+Nagpur,Tavg_C,Historical Baseline,1.153,1.434,0.902
+Nagpur,Tavg_C,LinearRegression,1.098,1.369,0.911
+Nagpur,Tavg_C,RandomForest,1.118,1.389,0.908
+Nagpur,Tavg_C,GradientBoosting,1.106,1.377,0.91
+Nagpur,Rainfall_mm,Historical Baseline,2.724,4.937,0.267
+Nagpur,Rainfall_mm,LinearRegression,2.691,4.937,0.267
+Nagpur,Rainfall_mm,RandomForest,2.871,5.036,0.237
+Nagpur,Rainfall_mm,GradientBoosting,2.791,4.999,0.248
+Nagpur,Rainfall_mm,TwoStageRainfall (RF-based),2.809,4.983,0.253
+Nagpur,Humidity_pct,Historical Baseline,4.889,6.154,0.906
+Nagpur,Humidity_pct,LinearRegression,4.89,6.155,0.906
+Nagpur,Humidity_pct,RandomForest,4.966,6.225,0.904
+Nagpur,Humidity_pct,GradientBoosting,4.946,6.205,0.905
+Nagpur,WindSpeed_kmh,Historical Baseline,1.482,1.862,0.772
+Nagpur,WindSpeed_kmh,LinearRegression,1.486,1.864,0.771
+Nagpur,WindSpeed_kmh,RandomForest,1.497,1.875,0.768
+Nagpur,WindSpeed_kmh,GradientBoosting,1.483,1.864,0.771
+Chhatrapati Sambhajinagar,Tavg_C,Historical Baseline,1.113,1.385,0.874
+Chhatrapati Sambhajinagar,Tavg_C,LinearRegression,1.08,1.347,0.881
+Chhatrapati Sambhajinagar,Tavg_C,RandomForest,1.086,1.356,0.879
+Chhatrapati Sambhajinagar,Tavg_C,GradientBoosting,1.082,1.348,0.88
+Chhatrapati Sambhajinagar,Rainfall_mm,Historical Baseline,1.988,3.396,0.257
+Chhatrapati Sambhajinagar,Rainfall_mm,LinearRegression,1.99,3.396,0.257
+Chhatrapati Sambhajinagar,Rainfall_mm,RandomForest,2.025,3.48,0.219
+Chhatrapati Sambhajinagar,Rainfall_mm,GradientBoosting,1.991,3.479,0.22
+Chhatrapati Sambhajinagar,Rainfall_mm,TwoStageRainfall (RF-based),2.01,3.444,0.235
+Chhatrapati Sambhajinagar,Humidity_pct,Historical Baseline,4.74,5.991,0.882
+Chhatrapati Sambhajinagar,Humidity_pct,LinearRegression,4.741,5.992,0.882
+Chhatrapati Sambhajinagar,Humidity_pct,RandomForest,4.808,6.058,0.879
+Chhatrapati Sambhajinagar,Humidity_pct,GradientBoosting,4.766,6.015,0.881
+Chhatrapati Sambhajinagar,WindSpeed_kmh,Historical Baseline,1.464,1.832,0.676
+Chhatrapati Sambhajinagar,WindSpeed_kmh,LinearRegression,1.466,1.836,0.675
+Chhatrapati Sambhajinagar,WindSpeed_kmh,RandomForest,1.488,1.856,0.667
+Chhatrapati Sambhajinagar,WindSpeed_kmh,GradientBoosting,1.479,1.848,0.67
