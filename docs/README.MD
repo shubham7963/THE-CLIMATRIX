@@ -1,7 +1,7 @@
 
 # Climate Forecasting and Decision Support Risk Analytics System (CFDS-RAS)
 
-**Climatrix AI** — a machine learning web app that estimates long-term climate conditions and climate risk for eight major Indian cities, built with Flask, scikit-learn, and vanilla JavaScript.
+**The Climatrix** — a machine learning web app that estimates long-term climate conditions and climate risk for eight major Indian cities, built with Flask, scikit-learn, and vanilla JavaScript.
 
 ---
 
